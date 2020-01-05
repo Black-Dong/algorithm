@@ -1,6 +1,6 @@
 package top.codingdong;
 
-import top.codingdong.offer.Four;
+import top.codingdong.offer.Five;
 
 /**
  * @author Dong
@@ -8,7 +8,8 @@ import top.codingdong.offer.Four;
  */
 public class Main {
     public static void main(String[] args) {
-        Four four = new Four();
-        System.out.println(four.NumberOf1(-1));
+        Five four = new Five();
+
+        System.out.println(four.Power(2,3));
     }
 }
